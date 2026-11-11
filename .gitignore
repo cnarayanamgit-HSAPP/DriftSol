@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python & Poetry
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Java / Gradle / Maven
+target/
+.gradle/
+build/
+*.class
+*.jar
+*.war
+
+# Environment & Secrets (Critical for AI & Healthcare)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# VS Code & IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# Docker & Local Infra
+*.log
+local_data/
