@@ -1,0 +1,3 @@
+-- Optional: create additional databases or extensions
+-- CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+-- CREATE DATABASE feature_store OWNER mlflow;

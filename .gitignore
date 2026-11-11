@@ -47,3 +47,12 @@ build/
 # Docker & Local Infra
 *.log
 local_data/
+
+# Node, K8s & Local Data
+node_modules/
+secrets/
+.kube/
+kind-config
+data/
+lakehouse/
+mlruns/
