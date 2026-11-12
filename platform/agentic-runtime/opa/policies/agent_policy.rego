@@ -1,8 +1,10 @@
 package driftsol.agent
 
-default allow = false
+import rego.v1
+
+default allow := false
 
 # Example: Only allow agent execution if tenant matches
-allow {
-    input.tenant_id == input.agent.tenant_id
+allow if {
+	input.tenant_id == input.agent.tenant_id
 }
